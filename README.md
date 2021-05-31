@@ -4,3 +4,6 @@
 
 ## Version
 *1.0.0*
+
+## Document
+https://readouble.com/laravel/6.x/ja/releases.html
