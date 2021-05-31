@@ -15,8 +15,6 @@ class DatabaseSeeder extends Seeder
         try {
             $this->call([
                 SampleUserSeeder::class,
-                SampleClientSeeder::class,
-                SampleClientUserSeeder::class,
             ]);
             DB::commit();
         } catch (Exception $e) {
