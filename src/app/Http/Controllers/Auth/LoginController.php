@@ -3,10 +3,9 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Foundation\Auth\AuthenticatesUsers;
+// use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
 use Illuminate\Http\Request;
-use App\Consts\UserConst;
 
 class LoginController extends Controller
 {
@@ -21,7 +20,8 @@ class LoginController extends Controller
     |
     */
 
-    use AuthenticatesUsers;
+    // TODO: 相応しいTraitへ変更
+    // use AuthenticatesUsers;
 
     /**
      * Where to redirect users after login.
