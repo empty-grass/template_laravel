@@ -9,23 +9,25 @@
     "license": "MIT",
     "require": {
         "php": "^8.0",
-        "fideloper/proxy": "^4.0",
-        "guzzlehttp/guzzle": "^6.5",
-        "laravel/framework": "^6.20",
-        "laravel/tinker": "^1.0"
+        "guzzlehttp/guzzle": "^7.0",
+        "laravel/framework": "^9.0",
+        "laravel/tinker": "^2.7.2"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.2",
         "filp/whoops": "^2.7",
         "fzaninotto/faker": "^1.4",
         "mockery/mockery": "^1.0",
-        "nunomaduro/collision": "^3.0",
+        "nunomaduro/collision": "^6.1",
         "phpunit/phpunit": "^8.4"
     },
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
-        "sort-packages": true
+        "sort-packages": true,
+        "platform": {
+            "php": "8.0.17"
+        }
     },
     "extra": {
         "laravel": {
