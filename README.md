@@ -8,7 +8,7 @@
 
 ## Document
 
-https://readouble.com/laravel/6.x/ja/releases.html
+https://readouble.com/laravel/9.x/ja/releases.html
 
 ## Docker commands
 
